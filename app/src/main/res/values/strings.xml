@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExpenseShareApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="transaction_details_note">Transaction Details/Note</string>
+    <string name="amount">Amount</string>
+    <string name="text_button_add_participant">Add Participant</string>
+    <string name="text_add_transaction">Add</string>
+</resources>

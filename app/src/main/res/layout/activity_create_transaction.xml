@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.gndps.expenseshareapp.CreateTransactionActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_transaction_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/new_transaction_item_side_margin"
+        android:layout_marginRight="@dimen/new_transaction_item_side_margin"
+        android:layout_marginTop="@dimen/new_transaction_item_top_margin"
+        android:hint="@string/transaction_details_note" />
+
+    <EditText
+        android:id="@+id/et_transaction_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/new_transaction_item_side_margin"
+        android:layout_marginRight="@dimen/new_transaction_item_side_margin"
+        android:layout_marginTop="@dimen/new_transaction_item_top_margin"
+        android:hint="@string/amount" />
+
+    <Button
+        android:id="@+id/button_add_participant"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/new_transaction_item_top_margin"
+        android:layout_height="@dimen/button_default_height"
+        android:text="@string/text_button_add_participant" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_create_transaction"
+        android:layout_marginTop="@dimen/new_transaction_item_top_margin"
+        android:paddingLeft="@dimen/default_padding_left"
+        android:paddingRight="@dimen/default_padding_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button_add_transaction"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/new_transaction_item_top_margin"
+        android:layout_height="@dimen/button_default_height"
+        android:text="@string/text_add_transaction" />
+
+</LinearLayout>
+
+
